@@ -6,4 +6,5 @@ jobs:
     steps:
      - name: Cehckout Repo
        uses: actions/checkout@v3
-     - name: MicheleMatt02/podcast-generator@main
+     - name: Run Feed Generator
+     - uses: MicheleMatt02/podcast-generator@main
